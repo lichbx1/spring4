@@ -11,7 +11,7 @@ public class ClientAppConfig {
 	public Jaxb2Marshaller marshaller() {
 		Jaxb2Marshaller marshaller = new Jaxb2Marshaller();
 		marshaller.setContextPath("com.concretepage.wsdl");
-		return marshaller;
+		return marshaller; 
 	}
 	@Bean
 	public StudentClient studentClient(Jaxb2Marshaller marshaller) {
